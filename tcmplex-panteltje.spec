@@ -1,6 +1,6 @@
 Name:		tcmplex-panteltje
 Version:	0.4.7
-Release:	%mkrel 2
+Release:	%mkrel 3
 Epoch:		0
 Summary:	Audio/Video multiplexer
 License:	GPL
@@ -19,7 +19,7 @@ channels.
 %{__perl} -pi -e 's/-O2/%{optflags}/' Makefile
 
 %build
-%make CC="%{__cc}"
+%{make} CC="%{__cc}"
 
 %install
 %{__rm} -rf %{buildroot}
