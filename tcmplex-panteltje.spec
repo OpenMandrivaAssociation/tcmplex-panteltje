@@ -7,6 +7,7 @@ License:	GPL
 Group:		Video
 URL:		http://panteltje.com/panteltje/dvd/
 Source0:	http://panteltje.com/panteltje/dvd/tcmplex-panteltje-%{version}.tar.bz2
+BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 tcmplex-pantelje is an audio/video multiplexer from the transcode
