@@ -1,6 +1,6 @@
 Name:		tcmplex-panteltje
 Version:	0.4.7
-Release:	%mkrel 3
+Release:	%mkrel 5
 Epoch:		0
 Summary:	Audio/Video multiplexer
 License:	GPL
