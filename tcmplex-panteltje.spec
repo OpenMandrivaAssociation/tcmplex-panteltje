@@ -5,7 +5,7 @@ Epoch:		0
 Summary:	Audio/Video multiplexer
 License:	GPL
 Group:		Video
-URL:		http://panteltje.com/panteltje/dvd/
+URL:		https://panteltje.com/panteltje/dvd/
 Source0:	http://panteltje.com/panteltje/dvd/tcmplex-panteltje-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
