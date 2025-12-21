@@ -9,6 +9,7 @@ URL:		https://panteltje.com/panteltje/dvd/
 Source0:	http://panteltje.com/panteltje/dvd/tcmplex-panteltje-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
+BuildRequires:	make
 %description
 tcmplex-pantelje is an audio/video multiplexer from the transcode
 distribution which has been re-written to support up to 8 audio
